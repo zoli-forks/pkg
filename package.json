@@ -1,6 +1,6 @@
 {
   "name": "@zkochan/pkg",
-  "version": "0.0.0-0",
+  "version": "0.0.0-2",
   "description": "Package your Node.js project into an executable",
   "main": "lib-es5/index.js",
   "license": "MIT",
