@@ -1826,8 +1826,6 @@ function payloadFileSync(pointer) {
     }
     const opts = args[pos];
     if (!opts.env) opts.env = _extend({}, process.env);
-    if (opts.env.PKG_EXECPATH === 'PKG_INVOKE_NODEJS') return;
-    opts.env.PKG_EXECPATH = EXECPATH;
   }
 
   childProcess.spawn = function spawn() {
